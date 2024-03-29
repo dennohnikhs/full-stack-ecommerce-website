@@ -6,7 +6,7 @@ function ProductItem({ product }: { product: Product }) {
   return (
     <div className="card bg-base-300 shadow-xl mb-4">
       <figure className="flex flex-col">
-        <Link href={`/product/${product.slug}`}>
+        <Link href={`/product/${product._id}`}>
           <Image
             src={product.image}
             alt={product.name}
@@ -15,7 +15,6 @@ function ProductItem({ product }: { product: Product }) {
             className="object-cover w-full h-64"
           />
         </Link>
-
         <div className="card-body">
           <Link href={`/product/${product._id}`}>
             <h2 className="card-title font-normal">{product.name}</h2>
