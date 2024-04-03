@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: "1",
+      id: "1",
       name: "Free Shirt",
       slug: "free-shirt",
       price: 9.99,
@@ -16,7 +16,7 @@ const data = {
       size: ["small", "medium", "large"],
     },
     {
-      _id: "2",
+      id: "2",
       name: "Fit Pants",
       slug: "fit-pants",
       price: 19.99,
@@ -31,7 +31,7 @@ const data = {
       size: ["small", "medium", "large"],
     },
     {
-      _id: "3",
+      id: "3",
       name: "Casual T-Shirt",
       slug: "casual-t-shirt",
       price: 14.99,
@@ -46,7 +46,7 @@ const data = {
       size: ["small", "medium", "large", "extra-large"],
     },
     {
-      _id: "4",
+      id: "4",
       name: "Sport Shorts",
       slug: "sport-shorts",
       price: 24.99,
@@ -61,7 +61,7 @@ const data = {
       size: ["small", "medium", "large"],
     },
     {
-      _id: "5",
+      id: "5",
       name: "Running Shoes",
       slug: "running-shoes",
       price: 49.99,
@@ -76,7 +76,7 @@ const data = {
       size: ["7", "8", "9", "10"],
     },
     {
-      _id: "6",
+      id: "6",
       name: "Yoga Mat",
       slug: "yoga-mat",
       price: 29.99,
@@ -91,7 +91,7 @@ const data = {
       size: ["standard", "extra-thick"],
     },
     {
-      _id: "7",
+      id: "7",
       name: "Gym Bag",
       slug: "gym-bag",
       price: 39.99,
@@ -106,7 +106,7 @@ const data = {
       size: ["small", "medium"],
     },
     {
-      _id: "8",
+      id: "8",
       name: "Baseball Cap",
       slug: "baseball-cap",
       price: 12.99,
@@ -121,7 +121,7 @@ const data = {
       size: ["one size"],
     },
     {
-      _id: "9",
+      id: "9",
       name: "Water Bottle",
       slug: "water-bottle",
       price: 7.99,
@@ -136,7 +136,7 @@ const data = {
       size: ["20oz", "32oz"],
     },
     {
-      _id: "10",
+      id: "10",
       name: "Sweatshirt",
       slug: "sweatshirt",
       price: 34.99,

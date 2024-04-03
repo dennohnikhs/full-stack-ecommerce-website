@@ -7,10 +7,7 @@ export default function Home() {
       <div>Latest Products</div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
         {data.products.map((product) => (
-          <ProductItem
-            key={product._id} // Changed from "product.id" to "product._id"
-            product={product}
-          />
+          <ProductItem key={product.id} product={product} />
         ))}
       </div>
     </main>

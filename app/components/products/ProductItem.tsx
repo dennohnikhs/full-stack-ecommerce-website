@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Product } from "@/app/lib/products/ProductsModel";
+import { Product } from "@/app/lib/models/ProductsModel";
 
 function ProductItem({ product }: { product: Product }) {
   return (
     <div className="card bg-base-300 shadow-xl mb-4">
       <figure className="flex flex-col">
-        <Link href={`/product/${product._id}`}>
+        <Link href={`/product/${product.id}`}>
           <Image
             src={product.image}
             alt={product.name}
@@ -16,7 +16,7 @@ function ProductItem({ product }: { product: Product }) {
           />
         </Link>
         <div className="card-body">
-          <Link href={`/product/${product._id}`}>
+          <Link href={`/product/${product.id}`}>
             <h2 className="card-title font-normal">{product.name}</h2>
           </Link>
           <p className="mb-2">{product.brand}</p>
